@@ -12,7 +12,8 @@
     <script>              
         document.querySelector('#primeiro').classList.add('destaque')
 
-        
+        const selecionar = seletor =>
+            document.querySelectorAll(seletor).forEach(e => e.classList.add('destsque'))
     </script>
 </body>
 </html>
